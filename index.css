@@ -1,0 +1,68 @@
+body{
+    background-color: beige;
+    width:100vw;
+    min-height: 100vh;
+    margin: 0px;
+    padding:0px 20px;
+    box-sizing:border-box ;
+}
+
+
+
+
+.img-article-container {
+    display: flex;
+    
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+.img-article-container img{
+    height:100%;
+}
+
+.img-article-container p{
+    display: inline-block;
+    width: 50%; 
+   
+} 
+b{
+    font-size: 29px;
+}
+nav {
+    background-color: rgb(233, 232, 159);
+    font-size:20px;
+    margin: 0px 20px;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#site_title{
+    text-align: center;
+   
+    font-size: 35px;
+}
+
+.showimg{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+#sale{
+    margin-left: 200px;
+    display: flex !important;
+    flex-direction: row;
+}
+
+.contact{
+    margin-left: 200px;
+}
+
+#link{
+    font-size: 15px;
+    margin-left: 100px;
+}
